@@ -1,10 +1,13 @@
 import 'boxicons'
 import './App.css';
+import Show from './components/Show/Show';
+import Texter from './components/Texter/Texter';
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Texter/>
+      
     </div>
   );
 }
